@@ -1,68 +1,166 @@
 body {
-    background-color: antiquewhite;
-    margin: 0;
-
+    background-color: white;
+    font-family:crimson-text-regular;
 }
 
-.container {
-    background-color: pink;
-
-} 
-
-.menu ul {
-    display: inline-flex;
+.menu a {
+    /* display: flex;
+    justify-content: right; */
+    /* display: inline-flex; */
     list-style-type: none;
+    color: aliceblue;
 }
 
-.btnMenu{
-    margin: 5px;
+
+.nav {
+    display: flex;
+    justify-content: right;
+    background-color: #6A8B95;
+    border: 10px solid #6A8B95;
+    padding: 10px;
+    margin: 0;
 }
 
 .logo{
-    background-color: antiquewhite;
+    display: flex;    
     justify-content: center;
-    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.logo img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
 } 
 
 .nameofstore{
-background-color: antiquewhite;
 justify-content: center;
 display: flex;
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 15px;
 }
 
-.cart{
-    /* justify-content: right;
-    display: flex; */
-} 
-
-.nav{
-   display: flex;
-   justify-content: right;
+.btnMenu {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border-radius: 8px;   
+    border: none;
+    background: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.Gtytle{
+.btnMenu:hover{
+    background-color: #e7e7e7;color: black;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+button a {
+    font-size: 20px;
+    text-decoration: none ;
+    color: inherit;
+
+}
+
+.Gtitle{
+    text-align: center;
+}
+
+.rowG {
+display: flex;
+justify-content: center;
+
+}
+
+
+.Gword{
+text-align: center;
+background-color: antiquewhite;
+margin: 25px ;
+width: 300px;
+height: 100px;
+border-radius: 150px 150px 0 0;
+padding: 27px
+}
+
+.Gimg{
+    width: 70px;
+}
+
+.titleNR{
+display: flex;
+justify-content: center;
+padding: 20px
+}
+
+.NewRelease{
+display: flex;
+margin: auto;
+width: 1200px;
+border: solid antiquewhite;
+border-radius: 40px;
+background-color: antiquewhite;
+}
+
+.NRB img{
+    padding: 40px;
+    width: 300px;
+}
+
+.BestsellingInfo{
+    font-size: 15px;
+    padding: 40px;
+    /* display: flex ; */
+    /* justify-content: center ; */
+}
+
+.WHot {
+display: flex;
+justify-content: center;
+}
+
+.WH{
+margin: 13px;
+padding: 7px;
+width: auto;
+border: solid antiquewhite;
+border-radius: 30px;
+background-color: antiquewhite;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.WH img{
+min-width: 80px;
+max-width: 150px;
+padding: 10px;
+}
+
+.footer img{
+    text-align: row;
+    margin: auto;
+    min-width: 20px;
+    max-width: 25px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.NewRelease1{
     display: flex;
-    justify-content: center;
-
+    margin: auto;
+    width: 1200px;
+    border: solid antiquewhite;
+    border-radius: 40px;
+    background-color: antiquewhite;
 }
-.rowG ul{
-    list-style-type: none;
-}
 
-.rowG ul {
+.NewRelease2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.what_hot{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
- .W_hot1, .W_hot2, .W_hot3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    margin: auto;
+    width: 1200px;
+    border: solid antiquewhite;
+    border-radius: 40px;
+    background-color: antiquewhite;
 }
